@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19044.2251; Version 2009; 64bit' Language: 'en' Physical Memory: 7939 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/703924/Shooter Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49313
+Successfully changed project path to: C:/Users/703924/Shooter Game
+C:/Users/703924/Shooter Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 112.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/703924/Shooter Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc8)
+    Vendor:   Intel
+    VRAM:     3969 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002330 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1633ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\703924\Shooter Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\703924\Shooter Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1750ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1420ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.0 MB.
+System memory in use after: 126.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3592.
+Total: 4.660600 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.313700 ms MarkObjects: 3.805600 ms  DeleteObjects: 0.109700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_02_A.mat
+  artifactKey: Guid(5146a78f90d41354b9e048f81986a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_02_A.mat using Guid(5146a78f90d41354b9e048f81986a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea407217b8dcfcca1aada6874dd75e61') in 0.148363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_04_C.mat
+  artifactKey: Guid(e8a12213ace71464e991b09e2e492540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_04_C.mat using Guid(e8a12213ace71464e991b09e2e492540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa098b2bf1bb460d6c363a00753fe78') in 0.055458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/BackgroundCard_02.mat
+  artifactKey: Guid(0916291fa216d3745994d729c597a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/BackgroundCard_02.mat using Guid(0916291fa216d3745994d729c597a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410df38bb7b060ce562b6c877140ab1d') in 0.072266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_02_B.mat
+  artifactKey: Guid(5e3d175f3d5b8914cb1c010383991d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_02_B.mat using Guid(5e3d175f3d5b8914cb1c010383991d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a2e1b887c6fbd8a628e3964027a387') in 0.038375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_01_A.mat
+  artifactKey: Guid(66a8a6e30880caa48908020cf5388217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_01_A.mat using Guid(66a8a6e30880caa48908020cf5388217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae555bd9ac27af1e76cfd56af4b86a2') in 0.039753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/FX_Fire.mat
+  artifactKey: Guid(257e6e00d4d8fbe4993e69e7a0bd96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/FX_Fire.mat using Guid(257e6e00d4d8fbe4993e69e7a0bd96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbe67de99b2f0c25cc357f91562010b') in 0.064832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonWestern/Materials
+  artifactKey: Guid(049243f24d70f584888499a69f78b1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials using Guid(049243f24d70f584888499a69f78b1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfaf7671d87503b6d2033d57bd61a57') in 0.014429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_03_C.mat
+  artifactKey: Guid(dd9a2415c6257cb4ba1738d92c094497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_03_C.mat using Guid(dd9a2415c6257cb4ba1738d92c094497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347135a988b88c53ec6fedbf0dcfb444') in 0.035308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/FX_Dust.mat
+  artifactKey: Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/FX_Dust.mat using Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0852d104f6970b8e80714b45d8beb04') in 0.090360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_01_B.mat
+  artifactKey: Guid(a15da839caab97b4f9cd9586f4ff31e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_01_B.mat using Guid(a15da839caab97b4f9cd9586f4ff31e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81030ddfdb8d11dacac4de561082820a') in 0.041426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c66aeb5cadaac2ade0e571aa81825b') in 0.087080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/Water.mat
+  artifactKey: Guid(67a9ceee98716744694c170d9a2b5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/Water.mat using Guid(67a9ceee98716744694c170d9a2b5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16566ccfedd36757b949f1107ac157a') in 0.172568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_04_A.mat
+  artifactKey: Guid(3b20901891546e04999f06509086c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_04_A.mat using Guid(3b20901891546e04999f06509086c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5b234cf8e52afb88317df897e1e40c') in 0.059912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/BackgroundCard_03.mat
+  artifactKey: Guid(c74c49e41d195d54f917d854a17ab64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/BackgroundCard_03.mat using Guid(c74c49e41d195d54f917d854a17ab64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2d16891bc5722a0af927b0cc5609e') in 0.047176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/Light.mat
+  artifactKey: Guid(4ffd6127cf2cd0448a1a343c4174fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/Light.mat using Guid(4ffd6127cf2cd0448a1a343c4174fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18f9851a419959abc71b5231b5eea83') in 0.043913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_03_A.mat
+  artifactKey: Guid(389b1eed39cf63c4fb8efea61e9976c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_03_A.mat using Guid(389b1eed39cf63c4fb8efea61e9976c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daef9316c8adf78fdb52fea3647c33a') in 0.042030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonWestern/Materials/POLYGONWestern_Signs_01.mat
+  artifactKey: Guid(379e992b9e0cca44ca665e4c677bb4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/POLYGONWestern_Signs_01.mat using Guid(379e992b9e0cca44ca665e4c677bb4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd93327b09202a834e27cca64d262786') in 0.033374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/Clouds.mat
+  artifactKey: Guid(e80f4bbad8923fc49b9bacc6eaa3ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/Clouds.mat using Guid(e80f4bbad8923fc49b9bacc6eaa3ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405d55df3bf40197f9baac71a2f752ca') in 0.281936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_03_B.mat
+  artifactKey: Guid(0363b46d437346a419e1ca86ea14de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_03_B.mat using Guid(0363b46d437346a419e1ca86ea14de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048d3085909fb3f9745fc17988a29eaf') in 0.040407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_04_B.mat
+  artifactKey: Guid(0e05935a90b6d7849a0fff4320edec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_04_B.mat using Guid(0e05935a90b6d7849a0fff4320edec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e8e4dadae241343030487459db464') in 0.060774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_01_C.mat
+  artifactKey: Guid(e611177a3c87f9746befe4d104a33201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_01_C.mat using Guid(e611177a3c87f9746befe4d104a33201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8cf06d683546c38d87601ed0aea37b') in 0.046747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/FX_Train_Smoke.mat
+  artifactKey: Guid(1d5eecf6ea41b6144a8c7368f295b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/FX_Train_Smoke.mat using Guid(1d5eecf6ea41b6144a8c7368f295b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffa31699d3eb60737f5fead9ab3a404') in 0.025479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/BackgroundCard_01.mat
+  artifactKey: Guid(c2e9ac57fad70ae4fb734e46954b090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/BackgroundCard_01.mat using Guid(c2e9ac57fad70ae4fb734e46954b090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76294c382d50b6c737495a9a971988d0') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/PolygonWestern/Materials/PolygonWestern_Material_02_C.mat
+  artifactKey: Guid(67cb02df386c44e4b9da736f1a3688f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/PolygonWestern_Material_02_C.mat using Guid(67cb02df386c44e4b9da736f1a3688f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78105796f1f1d94217be5d5efc1dd195') in 0.036687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/PolygonWestern/Materials/Misc
+  artifactKey: Guid(786008c2283b0694791688b0f49f9ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc using Guid(786008c2283b0694791688b0f49f9ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47adba34a6dec2e192966dbb411b0d6c') in 0.008514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/PolygonWestern/Materials/Glass.mat
+  artifactKey: Guid(1257fedd83d48064e95b34f4048a3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Glass.mat using Guid(1257fedd83d48064e95b34f4048a3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971537cf38b1a5e1edf02288a7a3585') in 0.035349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonWestern/Materials/Misc/FX_Smoke.mat
+  artifactKey: Guid(ddb0ce61c50ae1240a797d47e4335357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Materials/Misc/FX_Smoke.mat using Guid(ddb0ce61c50ae1240a797d47e4335357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2231cd7776908b18a0d36f1b11958f54') in 0.085977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415732 seconds.
+  path: Assets/SimplePeople/_Demo/Ground.mat
+  artifactKey: Guid(2433c26e5a6facf4181722c5a966ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/_Demo/Ground.mat using Guid(2433c26e5a6facf4181722c5a966ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084142896629783834b1c524a536f6c8') in 0.010540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_01.prefab
+  artifactKey: Guid(3c544eee478f9ca47b7a7e2645103261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_01.prefab using Guid(3c544eee478f9ca47b7a7e2645103261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44960ce537b4e413c24fccdf2dad055c') in 0.067910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_03.fbx
+  artifactKey: Guid(f0d078080de2ca44eae067a5ef227313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_03.fbx using Guid(f0d078080de2ca44eae067a5ef227313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f764b0a7f87bd26a0d784ff5f2203cc') in 0.057625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_03.prefab
+  artifactKey: Guid(f803fed3e5c371944bd9b8b739efae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_03.prefab using Guid(f803fed3e5c371944bd9b8b739efae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26854baafe3034e22227aab6d0c2b014') in 0.038567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCard_02.prefab
+  artifactKey: Guid(4d8fbd0c4418ddb4390b7f567d861560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCard_02.prefab using Guid(4d8fbd0c4418ddb4390b7f567d861560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ddd2df6c88ccd561f5a82e2cf43c61') in 0.017122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_02.fbx
+  artifactKey: Guid(ff2e1d57b19e0854d92f555c94f8bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_02.fbx using Guid(ff2e1d57b19e0854d92f555c94f8bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b19a02223c51d2d628ad5e9406ece8') in 0.042736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_04.prefab
+  artifactKey: Guid(b03d13b8c568a0e4e93644f3fa65171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_04.prefab using Guid(b03d13b8c568a0e4e93644f3fa65171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e63b56c494ec188d5261cbbce0d955') in 0.035444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab
+  artifactKey: Guid(ff8c1a24ee97b9340b90aaed635812e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab using Guid(ff8c1a24ee97b9340b90aaed635812e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d8b3f2ff1810525711b3ec85c8c4aa') in 0.015666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_05.prefab
+  artifactKey: Guid(0f5afd0a565c5644fb77d4600ba5d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_05.prefab using Guid(0f5afd0a565c5644fb77d4600ba5d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4986eb588af078c17bd2715a1ce85') in 0.049361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_02.prefab
+  artifactKey: Guid(ffa07e3583b855246941e709137f6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_02.prefab using Guid(ffa07e3583b855246941e709137f6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4432c29e177307c11a4b82917daa8e13') in 0.047898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_03.fbx
+  artifactKey: Guid(375b0864e741d744da54960a5aeb3944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_03.fbx using Guid(375b0864e741d744da54960a5aeb3944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2976ac99a2084654233b6e679beb3e4d') in 0.040642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_04.fbx
+  artifactKey: Guid(0a3ffdd6f434995419c793091e4c1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_04.fbx using Guid(0a3ffdd6f434995419c793091e4c1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa36eeb19b5427315fa7013ce41e47e') in 0.045492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_01.fbx
+  artifactKey: Guid(529837ecdd6004d4db99d3326c0569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_01.fbx using Guid(529837ecdd6004d4db99d3326c0569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d93ac16b05107e0f398ccc05e5ffed7') in 0.040990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_02.fbx
+  artifactKey: Guid(b37c3d62017fb0049819d162de7d9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_02.fbx using Guid(b37c3d62017fb0049819d162de7d9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8392d890f5d1d899b99156efe707f74') in 0.041165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCards_Preset_01.prefab
+  artifactKey: Guid(13965946c7fbbc64ebf335e90fc5bafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_BackgroundCards_Preset_01.prefab using Guid(13965946c7fbbc64ebf335e90fc5bafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba49f5e769b13b0a7c4a06b8bb0a2f') in 0.045366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_06.prefab
+  artifactKey: Guid(6fc86bcd020904044a931af912652050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Prefabs/Environments/SM_Env_Sand_Ground_06.prefab using Guid(6fc86bcd020904044a931af912652050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a9096d97f2a3f1595944a5c1b8a602') in 0.044138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_05.fbx
+  artifactKey: Guid(2babdebd1a1de2d498d5e9a13497a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_05.fbx using Guid(2babdebd1a1de2d498d5e9a13497a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71060deddc86000395802fff1cbd819') in 0.047510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx
+  artifactKey: Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx using Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae2d77c44bd3a15dfc58052655cd935') in 0.042177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_01.fbx
+  artifactKey: Guid(7709f7005465eb2489fb878ee5185e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_01.fbx using Guid(7709f7005465eb2489fb878ee5185e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec5fb79055ae0381e501d6cd303c6aa') in 0.043931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.640175 seconds.
+  path: Assets/Scripts/AIScripting.cs
+  artifactKey: Guid(7e3b71d3fc44c534487d172df3037052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AIScripting.cs using Guid(7e3b71d3fc44c534487d172df3037052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6140ac2649dda197aee2a3f491908efd') in 0.014649 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\703924\Shooter Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\703924\Shooter Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3643.
+Total: 3.480300 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.182600 ms MarkObjects: 2.951800 ms  DeleteObjects: 0.048400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.843252 seconds.
+  path: Assets/Scripts/AIScripting.cs
+  artifactKey: Guid(7e3b71d3fc44c534487d172df3037052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AIScripting.cs using Guid(7e3b71d3fc44c534487d172df3037052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ecb7a501d029e0083f37f3efac3ec7') in 0.018100 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
