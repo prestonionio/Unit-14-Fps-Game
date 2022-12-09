@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\AgentScript.cs" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
+     <None Include="Assets\Materials\BlurShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
